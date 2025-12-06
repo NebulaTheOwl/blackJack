@@ -1,0 +1,222 @@
+body{
+	background-image: url("cards/cards/playtech copy.JPG");
+	background-size: cover;
+}
+#divDealerCards{
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+#divPlayerCards{
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+#lblWinTitle{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 20Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblBetAmount{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblChipCount{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblDealerTotal{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblPlayerTotal{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblDealerTotalText{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblPlayerTotalText{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#divButtons{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 15Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	padding-top: 5Px;
+	padding-bottom: 5Px;
+	display: table;
+}
+#lblBetAmountText{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+#lblChipCountText{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 17Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	display: table;
+}
+h1{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 15Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	padding-top: 5Px;
+	padding-bottom: 5Px;
+	display: table;
+}
+h2{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 15Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	padding-top: 5Px;
+	padding-bottom: 5Px;
+	display: table;
+}
+h3{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10Px;
+	font-size: 15Px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 10Px;
+	padding-right: 10Px;
+	padding-top: 5Px;
+	padding-bottom: 5Px;
+	display: table;
+}
+
+#btnDeal{
+	font-size: 15Px;
+}
+#btnDraw{
+	font-size: 15Px;
+}
+#btnStay{
+	font-size: 15Px;
+}
+#btnBet1{
+	font-size: 15Px;
+}
+#btnBet10{
+	font-size: 15Px;
+}
+#btnBet100{
+	font-size: 15Px;
+}
+#btnBet1000{
+	font-size: 15Px;
+}
+#btnBetAllIn{
+	font-size: 15Px;
+}
+#btnBetReset{
+	font-size: 15Px;
+}
+#btnNewHand{
+	font-size: 15Px;
+}
