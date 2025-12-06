@@ -1,0 +1,98 @@
+<!--
+	Alexander
+	10.18.2019
+	Blackjack Assignment
+	Coding a fully functional game of Blackjack!
+-->
+<html>
+	<head>
+		<title>
+			BlackJack
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script
+  		src="https://code.jquery.com/jquery-3.4.1.js"
+  		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  		crossorigin="anonymous"></script>
+  		<script type="text/javascript" src="code.js"></script>
+	</head>
+	<body>
+		<audio preload="auto" loop id="backgroundMusic">
+			<source src="casinoNightZone.mp3" type="audio/mpeg">
+		</audio>
+		<audio preload="auto" id="loseMusic">
+			<source src="gameOver.mp3" type="audio/mpeg">
+		</audio>
+		<audio preload="auto" id="winMusic">
+			<source src="regularWin.mp3" type="audio/mpeg">
+		</audio>
+		<label id="lblWinTitle">
+			BlackJack
+		</label>
+		<br>
+		<div id="divDealerCards">
+		<img id="imgDealerCard1" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard2" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard3" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard4" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard5" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard6" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard7" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard8" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard9" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard10" src="cards/cards/card55.JPG">
+		<img id="imgDealerCard11" src="cards/cards/card55.JPG">
+		</div>
+		<label id="lblDealerTotal">
+			0
+		</label>
+		<label id="lblDealerTotalText">
+			Dealer's Total:
+		</label>
+		<label id="lblPlayerTotalText">
+			Your Total:
+		</label>
+		<label id="lblPlayerTotal">
+			0
+		</label>
+		<div id="divPlayerCards">
+		<img id="imgPlayerCard1" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard2" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard3" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard4" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard5" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard6" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard7" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard8" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard9" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard10" src="cards/cards/card55.JPG">
+		<img id="imgPlayerCard11" src="cards/cards/card55.JPG">
+		</div>
+		<label id="lblBetAmount">
+			0
+		</label>
+		<label id="lblBetAmountText">
+			Your Current Bet:
+		</label>
+		<label id="lblChipCountText">
+			Your Chips:
+		</label>
+		<label id="lblChipCount">
+			100
+		</label>
+		<div id="divButtons">
+			<input type="button" id="btnNewHand" value="New Hand">
+			<input type="button" id="btnDeal" value="Deal">
+			<input type="button" id="btnDraw" value="Hit">
+			<input type="button" id="btnStay" value="Stay">
+			<br>
+			<input type="button" id="btnBet1" value="Bet 1 Chip">
+			<input type="button" id="btnBet10" value="Bet 10 Chips">
+			<input type="button" id="btnBet100" value="Bet 100 Chips">
+			<input type="button" id="btnBet1000" value="Bet 1000 Chips">
+			<input type="button" id="btnBetAllIn" value="Go All In">
+			<input type="button" id="btnBetReset" value="Reset Bet">
+		</div>
+		
+	</body>
+</html>
